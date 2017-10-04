@@ -1,12 +1,8 @@
 <?php
 define('ABSPATH', dirname(__FILE__) . '/');
 include("conn.php");
-DEFINE('IMAGE_URL',"http://192.168.1.1/lottery/admin/gallery/");
-DEFINE('LOTTORY_URL',"http://192.168.1.1/lottery/admin/images/");
 
 //DEFINE('UPLOAD_URL',"admin/gallery/");
-define('UPLOAD_URL', $_SERVER['DOCUMENT_ROOT'] . '/lottery/admin/gallery/');
-
 class webservice {
     private $connection;
 //login,register,update_profile,verify_otp
